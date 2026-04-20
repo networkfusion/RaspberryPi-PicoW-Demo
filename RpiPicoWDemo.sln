@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "RpiPicoWDemoApp", "RpiPicoWDemoApp.nfproj", "{14343F5C-31DC-40AE-B12E-422E606F9118}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "nanoFramework.Hardware.PiPico", "nanoFramework.Hardware.PiPico\nanoFramework.Hardware.PiPico.nfproj", "{3D116341-EF8D-490C-B91B-39AE950D2AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14343F5C-31DC-40AE-B12E-422E606F9118}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D116341-EF8D-490C-B91B-39AE950D2AFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {458C73FB-8F04-4992-9EBB-BDB0DFA9F616}
+	EndGlobalSection
+EndGlobal
