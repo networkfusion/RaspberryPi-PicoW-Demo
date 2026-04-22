@@ -13,9 +13,9 @@ namespace nanoFramework.Hardware.PiPico
         private static readonly int ADC_TEMP_CHANNEL = 4;
 
         /// <summary>
-        /// 
+        /// Gets the internal voltage.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Voltage from VSYS</returns>
         public double GetInternalVoltage()
         {
             adcController ??= new AdcController();
@@ -25,9 +25,9 @@ namespace nanoFramework.Hardware.PiPico
         }
 
         /// <summary>
-        /// 
+        /// Gets the internal temperature.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>The internal temperature in celcius.</returns>
         public double GetInternalTemperature()
         {
             adcController ??= new AdcController();
